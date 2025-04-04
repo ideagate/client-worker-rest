@@ -1,0 +1,5 @@
+app:
+  port: 8091
+
+controller:
+  url: localhost:8090

@@ -1,0 +1,7 @@
+with-expecter: true
+dir: "{{.InterfaceDir}}/_mocks"
+outpkg: mock
+packages:
+  github.com/bayu-aditya/ideagate/backend/client/worker-rest/adapter/controller:
+    interfaces:
+      IControllerAdapter:
