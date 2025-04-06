@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	"github.com/bayu-aditya/ideagate/backend/core/model/constant"
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
 	"github.com/gin-gonic/gin"
+	"github.com/ideagate/core/model/constant"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

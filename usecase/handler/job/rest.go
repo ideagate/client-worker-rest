@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bayu-aditya/ideagate/backend/core/model/endpoint"
+	"github.com/ideagate/core/model/endpoint"
 )
 
 type rest struct {

@@ -1,9 +1,9 @@
 package job
 
 import (
-	"github.com/bayu-aditya/ideagate/backend/core/model/endpoint"
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
 	"github.com/gin-gonic/gin"
+	"github.com/ideagate/core/model/endpoint"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 )
 
 type start struct {

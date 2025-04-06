@@ -3,8 +3,8 @@ package controller
 import (
 	"context"
 
-	"github.com/bayu-aditya/ideagate/backend/client/worker-rest/config"
-	pbController "github.com/bayu-aditya/ideagate/backend/model/gen-go/client/controller/v1"
+	"github.com/ideagate/client-worker-rest/config"
+	pbController "github.com/ideagate/model/gen-go/client/controller/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

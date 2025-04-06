@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	entityContext "github.com/bayu-aditya/ideagate/backend/core/model/entity/context"
-	entityDataSource "github.com/bayu-aditya/ideagate/backend/core/model/entity/datasource"
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
+	entityContext "github.com/ideagate/core/model/entity/context"
+	entityDataSource "github.com/ideagate/core/model/entity/datasource"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 )

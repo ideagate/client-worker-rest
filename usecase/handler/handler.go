@@ -3,10 +3,10 @@ package handler
 import (
 	"context"
 
-	adapterController "github.com/bayu-aditya/ideagate/backend/client/worker-rest/adapter/controller"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/errors"
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
 	"github.com/gin-gonic/gin"
+	adapterController "github.com/ideagate/client-worker-rest/adapter/controller"
+	"github.com/ideagate/core/utils/errors"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 )
 
 type IHandlerUsecase interface {

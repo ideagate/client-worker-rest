@@ -3,7 +3,7 @@ package job
 import (
 	"fmt"
 
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 )
 
 type IJob interface {

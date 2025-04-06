@@ -1,11 +1,11 @@
-module github.com/bayu-aditya/ideagate/backend/client/worker-rest
+module github.com/ideagate/client-worker-rest
 
 go 1.23.0
 
 require (
-	github.com/bayu-aditya/ideagate/backend/core v0.0.0-20250108094104-23d45f317aa0
-	github.com/bayu-aditya/ideagate/backend/model/gen-go v0.0.0-20250108071210-e53796da7921
 	github.com/gin-gonic/gin v1.10.0
+	github.com/ideagate/core v0.0.0-20250405234934-b97c52ec982f
+	github.com/ideagate/model/gen-go v0.0.0-20250405233858-080667362b54
 	github.com/jarcoal/httpmock v1.3.1
 	github.com/onsi/ginkgo/v2 v2.23.3
 	github.com/onsi/gomega v1.36.2

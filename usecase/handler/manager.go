@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bayu-aditya/ideagate/backend/client/worker-rest/model"
-	handlerJob "github.com/bayu-aditya/ideagate/backend/client/worker-rest/usecase/handler/job"
-	"github.com/bayu-aditya/ideagate/backend/core/model/constant"
-	entityContext "github.com/bayu-aditya/ideagate/backend/core/model/entity/context"
-	"github.com/bayu-aditya/ideagate/backend/core/model/entity/datasource"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/errors"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/pubsub"
-	pbEndpoint "github.com/bayu-aditya/ideagate/backend/model/gen-go/core/endpoint"
 	"github.com/gin-gonic/gin"
+	"github.com/ideagate/client-worker-rest/model"
+	handlerJob "github.com/ideagate/client-worker-rest/usecase/handler/job"
+	"github.com/ideagate/core/model/constant"
+	entityContext "github.com/ideagate/core/model/entity/context"
+	"github.com/ideagate/core/model/entity/datasource"
+	"github.com/ideagate/core/utils/errors"
+	"github.com/ideagate/core/utils/pubsub"
+	pbEndpoint "github.com/ideagate/model/gen-go/core/endpoint"
 )
 
 type iManager interface {

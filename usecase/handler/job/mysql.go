@@ -1,8 +1,8 @@
 package job
 
 import (
-	"github.com/bayu-aditya/ideagate/backend/core/model/endpoint"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/errors"
+	"github.com/ideagate/core/model/endpoint"
+	"github.com/ideagate/core/utils/errors"
 )
 
 type mysql struct {

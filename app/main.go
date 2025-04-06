@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 
-	"github.com/bayu-aditya/ideagate/backend/client/worker-rest/adapter/controller"
-	"github.com/bayu-aditya/ideagate/backend/client/worker-rest/config"
-	"github.com/bayu-aditya/ideagate/backend/client/worker-rest/usecase/handler"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/log"
 	"github.com/gin-gonic/gin"
+	"github.com/ideagate/client-worker-rest/adapter/controller"
+	"github.com/ideagate/client-worker-rest/config"
+	"github.com/ideagate/client-worker-rest/usecase/handler"
+	"github.com/ideagate/core/utils/log"
 )
 
 func main() {
